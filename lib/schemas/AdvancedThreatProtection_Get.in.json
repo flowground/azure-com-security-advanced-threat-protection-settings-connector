@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "resourceId": {
+            "required": true,
+            "type": "string"
+        },
+        "settingName": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "current"
+            ]
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
